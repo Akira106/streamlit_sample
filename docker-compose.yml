@@ -1,0 +1,13 @@
+version: "3"
+services:
+  hands_detection:
+    image: hands_detection:1.0
+    build:
+      context: .
+    container_name: hands_detection
+    ports:
+      - 8080:8501
+    volumes:
+      - ./videos:/home/streamlit/videos
+      - ./results:/home/streamlit/results
+    tty: true
