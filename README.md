@@ -3,7 +3,7 @@
 PythonのOSSであるstreamlitを使用したサンプルプログラムを作成しました。  
   
 streamlitの公式ページ  
-[https://streamlit.io/][https://streamlit.io/]  
+[https://streamlit.io/](https://streamlit.io/)  
 
 ## streamlitとは？
 
@@ -17,9 +17,9 @@ PythonだけでWebアプリを開発できるフレームワークです。
 
 このサンプルプログラムでは、以下のステップによるAI解析デモを実行します。  
 
-- 1. 動画ファイルのアップロード
-- 2. AI(手のひら検知)による解析の実行
-- 3. 解析結果の確認・可視化とダウンロード
+1. 動画ファイルのアップロード
+2. AI(手のひら検知)による解析の実行
+3. 解析結果の確認・可視化とダウンロード
 
 <br>
 
