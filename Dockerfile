@@ -24,3 +24,4 @@ RUN pip3 install \
 WORKDIR /home/streamlit
 RUN wget -q https://storage.googleapis.com/mediapipe-models/hand_landmarker/hand_landmarker/float16/1/hand_landmarker.task
 COPY src /home/streamlit
+RUN mkdir /root/.streamlit && mv config.toml /root/.streamlit
